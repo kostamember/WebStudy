@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form name="frm" action="webstudy1201.jsp">
+<form name="frm" action="webstudyFor1201.jsp">
 	<table>
 		<tr>
 			<td>
