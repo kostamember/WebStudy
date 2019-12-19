@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 971px; /*1024*768 해상도로 맞추어서 설계*/
+	/* 가운데 정렬을 위한 바깥쪽 여백 설정 */
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	color: green;    /*글 생상*/
+}
+
+table {
+	width: 100%;  /*너비 100%*/
+	border-collapse: collapse;  /*경계선 없이*/
+	font-size: 12px;
+	line-height:24px;
+}
+table td, th {
+	border: #d3d3d3 solid 1px;
+	padding: 5px; /*안쪽 여백*/
+}
+th {
+	background: yellowgreen;
+}
+
+img {
+	width: 220px;
+	height: 300px;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+a:HOVER {    /* 텍스트에 마우스를 올려 두었을 때 밑줄이 생기고, 글 색상은 초록색이 된다*/
+	text-decoration:underline;
+	color:green;
+}
